@@ -1,0 +1,59 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    margin-top: 30px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para los roles y ceremonias */
+  .role, .ceremony {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos específicos para los roles */
+  .role h2 {
+    color: #007BFF;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+  }
+  
+  /* Estilos para la importancia de QA */
+  .role:nth-child(5) {
+    background-color: #FFEBCD;
+    border: 1px solid #FFDAB9;
+    color: #FF4500;
+  }
+  
+  /* Estilos para las ceremonias */
+  .ceremony h2 {
+    color: #28A745;
+    border-bottom: 2px solid #28A745;
+    padding-bottom: 5px;
+  }
+  
+  /* Estilos para las descripciones de los roles */
+  .role p {
+    margin-top: 10px;
+  }
+  
+  /* Estilos para las descripciones de las ceremonias */
+  .ceremony p {
+    margin-top: 10px;
+  }
+  
